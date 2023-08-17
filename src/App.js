@@ -224,7 +224,6 @@ function MovieDetials({ selectedId, onCloseMovie, onAddWatched, watched }) {
     onAddWatched(newWatchedMovie);
     onCloseMovie();
   }
-  // console.log(title, year);
   useEffect(
     function (title, year) {
       async function getMovieDetials() {
